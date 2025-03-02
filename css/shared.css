@@ -1,0 +1,671 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/static/Roboto-Black.ttf');
+    src: url('../fonts/static-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/static-Italic.woff2') format('woff2'),
+        url('../fonts/static-Italic.woff') format('woff'),
+        url('../fonts/static-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/static-Regular.eot');
+    src: url('../fonts/static-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/static-Regular.woff2') format('woff2'),
+        url('../fonts/static-Regular.woff') format('woff'),
+        url('../fonts/static-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-Bold.eot');
+    src: url('../fonts/staticCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/staticCondensed-Bold.woff') format('woff'),
+        url('../fonts/staticCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-Black.eot');
+    src: url('../fonts/staticCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-Black.woff2') format('woff2'),
+        url('../fonts/staticCondensed-Black.woff') format('woff'),
+        url('../fonts/staticCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-BlackItalic.eot');
+    src: url('../fonts/staticCondensed-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-BlackItalic.woff2') format('woff2'),
+        url('../fonts/staticCondensed-BlackItalic.woff') format('woff'),
+        url('../fonts/staticCondensed-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-Italic.eot');
+    src: url('../fonts/staticCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-Italic.woff2') format('woff2'),
+        url('../fonts/staticCondensed-Italic.woff') format('woff'),
+        url('../fonts/staticCondensed-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-BoldItalic.eot');
+    src: url('../fonts/staticCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-BoldItalic.woff2') format('woff2'),
+        url('../fonts/staticCondensed-BoldItalic.woff') format('woff'),
+        url('../fonts/staticCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-Light.eot');
+    src: url('../fonts/staticCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-Light.woff2') format('woff2'),
+        url('../fonts/staticCondensed-Light.woff') format('woff'),
+        url('../fonts/staticCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-ExtraLight.eot');
+    src: url('../fonts/staticCondensed-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-ExtraLight.woff2') format('woff2'),
+        url('../fonts/staticCondensed-ExtraLight.woff') format('woff'),
+        url('../fonts/staticCondensed-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-ExtraBold.eot');
+    src: url('../fonts/staticCondensed-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-ExtraBold.woff2') format('woff2'),
+        url('../fonts/staticCondensed-ExtraBold.woff') format('woff'),
+        url('../fonts/staticCondensed-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-ExtraBoldItalic.eot');
+    src: url('../fonts/staticCondensed-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/staticCondensed-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/staticCondensed-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-ExtraLightItalic.eot');
+    src: url('../fonts/staticCondensed-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/staticCondensed-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/staticCondensed-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-ThinItalic.eot');
+    src: url('../fonts/staticCondensed-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-ThinItalic.woff2') format('woff2'),
+        url('../fonts/staticCondensed-ThinItalic.woff') format('woff'),
+        url('../fonts/staticCondensed-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-Regular.eot');
+    src: url('../fonts/staticCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-Regular.woff2') format('woff2'),
+        url('../fonts/staticCondensed-Regular.woff') format('woff'),
+        url('../fonts/staticCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-SemiBoldItalic.eot');
+    src: url('../fonts/staticCondensed-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/staticCondensed-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/staticCondensed-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-Thin.eot');
+    src: url('../fonts/staticCondensed-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-Thin.woff2') format('woff2'),
+        url('../fonts/staticCondensed-Thin.woff') format('woff'),
+        url('../fonts/staticCondensed-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-LightItalic.eot');
+    src: url('../fonts/staticCondensed-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-LightItalic.woff2') format('woff2'),
+        url('../fonts/staticCondensed-LightItalic.woff') format('woff'),
+        url('../fonts/staticCondensed-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-SemiBold.eot');
+    src: url('../fonts/staticCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-SemiBold.woff2') format('woff2'),
+        url('../fonts/staticCondensed-SemiBold.woff') format('woff'),
+        url('../fonts/staticCondensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-MediumItalic.eot');
+    src: url('../fonts/staticCondensed-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-MediumItalic.woff2') format('woff2'),
+        url('../fonts/staticCondensed-MediumItalic.woff') format('woff'),
+        url('../fonts/staticCondensed-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/staticCondensed-Medium.eot');
+    src: url('../fonts/staticCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticCondensed-Medium.woff2') format('woff2'),
+        url('../fonts/staticCondensed-Medium.woff') format('woff'),
+        url('../fonts/staticCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto SemiCondensed';
+    src: url('../fonts/staticSemiCondensed-BlackItalic.eot');
+    src: url('../fonts/staticSemiCondensed-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticSemiCondensed-BlackItalic.woff2') format('woff2'),
+        url('../fonts/staticSemiCondensed-BlackItalic.woff') format('woff'),
+        url('../fonts/staticSemiCondensed-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto SemiCondensed';
+    src: url('../fonts/staticSemiCondensed-ExtraBold.eot');
+    src: url('../fonts/staticSemiCondensed-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticSemiCondensed-ExtraBold.woff2') format('woff2'),
+        url('../fonts/staticSemiCondensed-ExtraBold.woff') format('woff'),
+        url('../fonts/staticSemiCondensed-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto SemiCondensed';
+    src: url('../fonts/staticSemiCondensed-BoldItalic.eot');
+    src: url('../fonts/staticSemiCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticSemiCondensed-BoldItalic.woff2') format('woff2'),
+        url('../fonts/staticSemiCondensed-BoldItalic.woff') format('woff'),
+        url('../fonts/staticSemiCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto SemiCondensed';
+    src: url('../fonts/staticSemiCondensed-ExtraLightItalic.eot');
+    src: url('../fonts/staticSemiCondensed-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticSemiCondensed-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/staticSemiCondensed-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/staticSemiCondensed-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto SemiCondensed';
+    src: url('../fonts/staticSemiCondensed-Black.eot');
+    src: url('../fonts/staticSemiCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticSemiCondensed-Black.woff2') format('woff2'),
+        url('../fonts/staticSemiCondensed-Black.woff') format('woff'),
+        url('../fonts/staticSemiCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto SemiCondensed';
+    src: url('../fonts/staticSemiCondensed-Italic.eot');
+    src: url('../fonts/staticSemiCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticSemiCondensed-Italic.woff2') format('woff2'),
+        url('../fonts/staticSemiCondensed-Italic.woff') format('woff'),
+        url('../fonts/staticSemiCondensed-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto SemiCondensed';
+    src: url('../fonts/staticSemiCondensed-Bold.eot');
+    src: url('../fonts/staticSemiCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticSemiCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/staticSemiCondensed-Bold.woff') format('woff'),
+        url('../fonts/staticSemiCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto SemiCondensed';
+    src: url('../fonts/staticSemiCondensed-ExtraLight.eot');
+    src: url('../fonts/staticSemiCondensed-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticSemiCondensed-ExtraLight.woff2') format('woff2'),
+        url('../fonts/staticSemiCondensed-ExtraLight.woff') format('woff'),
+        url('../fonts/staticSemiCondensed-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto SemiCondensed';
+    src: url('../fonts/staticSemiCondensed-ExtraBoldItalic.eot');
+    src: url('../fonts/staticSemiCondensed-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticSemiCondensed-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/staticSemiCondensed-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/staticSemiCondensed-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto SemiCondensed';
+    src: url('../fonts/staticSemiCondensed-Light.eot');
+    src: url('../fonts/staticSemiCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/staticSemiCondensed-Light.woff2') format('woff2'),
+        url('../fonts/staticSemiCondensed-Light.woff') format('woff'),
+        url('../fonts/staticSemiCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Core style */
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto' sans-serif;
+}
+
+a {
+    transition: all 0.3 ease-in-out;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.to-uppercase {
+    text-transform: uppercase;
+}
+
+.section-subtitle {
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 0.625rem;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.section-title {
+    margin-top: 5px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364D;
+}
+
+.button {
+    border: none;
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    background-size: 200% auto;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 1.26rem 2.5rem; 
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.4s ease 0s;
+}
+
+.button:hover {
+    background-position: right center;
+    transition: all 0.4s ease 0s;
+}
+
+.blur-line {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    margin-left: 0.32rem;
+    width: 80px;
+    height: 4px;
+    background-color: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*Main header styles*/
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+    z-index: 10;
+}
+
+.main-header .container {
+    display: flex;
+    align-items: center;
+}
+
+.main-header__brand img {
+    width: 64px;
+}
+
+.main-navigation__item {
+    display: inline-block;
+    padding: 0.625rem;
+}
+
+.main-navigation__item a {
+    color: #05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.main-navigation__item a:hover {
+    color: #efb6df;
+}
+
+.main-navigation__item.active a {
+    color: #efb6df;
+}
+
+/* Footer section style */
+.footer {
+    padding: 50px 0;
+    margin-top: 50px;
+    background-color: #021017;
+    text-align: center;
+}
+
+.footer__brand img {
+    width: 128px;
+}
+
+.footer__navigation-items {
+    margin-bottom: 20px;
+}
+
+.footer__navigation-item {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.footer__navigation-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__social {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 36px;
+    color: #05364d;
+    font-size: 16px;
+    margin-right: 12px;
+}
+
+.footer__social a {
+    color: #021017;
+}
+
+.footer__social:hover {
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+}
+
+.footer__social:hover i {
+    color: white;
+}
+
+.footer__text {
+    color: #797979;
+}
+
+@media only screen and (max-width: 991px) {
+    .container {
+        width: 90%;
+    }
+
+    /* Navigation menu */
+    .main-navigation {
+        display: none;
+    }
+    /* Footer */
+    .footer__navigation {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 92%;
+    }
+}
+/* Подключение Bootstrap */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+
+/* Общие стили */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Навбар */
+.navbar {
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    padding: 1rem;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa !important;
+    transform: scale(1.05);
+}
+
+/* Главный баннер */
+.main-banner {
+    min-height: 70vh;
+    background-size: cover;
+    padding: 4rem 0;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(19,69,230,0.8), rgba(237,35,159,0.8));
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-section__image img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* Статистика */
+.statistics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.statistics__item {
+    flex: 1 1 200px;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Карточки услуг и блога */
+.services__cards, .blog-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.service-card, .blog-item {
+    flex: 1 1 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.service-card:hover, .blog-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Медиа-запросы */
+@media (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+
+    .main-banner {
+        padding: 3rem 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .statistics {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services__cards, .blog-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card, .blog-item {
+        width: 100%;
+    }
+}
